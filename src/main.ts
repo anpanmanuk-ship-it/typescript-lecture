@@ -1,7 +1,7 @@
 import { Mage } from "./mage";
 import { Warrior } from "./warrior";
 
-const warrior = new Warrior("アーサー", 100);
+const warrior = new Warrior("アーサー", 100, "エクスカリバー");
 warrior.showStatus();
 console.log(warrior.attack());
 
