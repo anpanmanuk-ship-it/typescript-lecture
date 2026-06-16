@@ -3,8 +3,8 @@ import { Warrior } from "./warrior";
 
 const warrior = new Warrior("アーサー", 100, "エクスカリバー");
 warrior.showStatus();
-console.log(warrior.attack());
+warrior.attack();
 
 const mage = new Mage("メディア", 80);
 mage.showStatus();
-mage.castSpell();
+mage.attack();

@@ -8,7 +8,7 @@ export class Warrior extends Character {
     this.weapon = weapon;
   };
 
-  attack() {
-    return `${this.name}は${this.weapon}で攻撃した！`
+  override attack() {
+    console.log(`${this.name}は${this.weapon}で攻撃した！`);
   };
 }

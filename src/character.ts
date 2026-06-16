@@ -10,4 +10,8 @@ export class Character {
   showStatus() {
     console.log(`${this.name}: HP ${this.hp}`);
   }
+
+  attack() {
+    console.log(`${this.name}は攻撃した!`)
+  }
 }
